@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="496.0" prefWidth="722.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.appgestiondesconges.loginController">
+   <children>
+      <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="496.0" prefWidth="722.0">
+         <children>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: black;">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="7.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Img/imagesbn__1_-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="18.0" layoutY="332.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Img/istockphoto-899130608-612x612-removebg-preview113.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="58.0" fitWidth="62.0" layoutX="21.0" layoutY="261.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Img/images_22_1_-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="58.0" fitWidth="62.0" layoutX="21.0" layoutY="410.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Img/micon-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="#fffefe" layoutX="100.0" layoutY="294.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Aplly Leave" wrappingWidth="81.13671875">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#fffefe" layoutX="100.0" layoutY="372.0" strokeType="OUTSIDE" strokeWidth="0.0" text="My Leave" wrappingWidth="81.13671875">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#fffefe" layoutX="100.0" layoutY="444.0" strokeType="OUTSIDE" strokeWidth="0.0" text="My Messages" wrappingWidth="81.13671875">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="bempd" layoutX="18.0" layoutY="261.0" mnemonicParsing="false" onAction="#move" prefHeight="58.0" prefWidth="64.0" style="-fx-background-color: transparent;" />
+                  <Button fx:id="bempc" layoutX="18.0" layoutY="339.0" mnemonicParsing="false" onAction="#lt" prefHeight="58.0" prefWidth="64.0" style="-fx-background-color: transparent;" />
+                  <Button fx:id="bempm" layoutX="18.0" layoutY="410.0" mnemonicParsing="false" onAction="#set_message" prefHeight="58.0" prefWidth="64.0" style="-fx-background-color: transparent;" />
+                  <ImageView fitHeight="58.0" fitWidth="58.0" layoutX="21.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Img/images__4_-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="#fffefe" layoutX="100.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Leaves Requests" wrappingWidth="96.13671875">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="bPR" layoutX="18.0" layoutY="190.0" mnemonicParsing="false" onAction="#LeavesR" prefHeight="58.0" prefWidth="64.0" style="-fx-background-color: transparent;" />
+               </children>
+            </AnchorPane>
+            <AnchorPane>
+               <children>
+                  <ImageView fx:id="ba" fitHeight="135.0" fitWidth="149.0" layoutX="372.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Img/b8d57b67540ff1b9c1d795c0957b53ef-removebg.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="28.0" layoutY="122.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="6.0" prefWidth="467.0" style="-fx-background-color: black;" />
+                  <Text fx:id="wemp" layoutX="40.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to your personal space">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Text>
+                  <AnchorPane fx:id="BS" layoutX="14.0" layoutY="128.0" prefHeight="365.0" prefWidth="502.0">
+                     <children>
+                        <ImageView fitHeight="75.0" fitWidth="256.0" layoutX="194.0" layoutY="139.0" pickOnBounds="true" preserveRatio="true" scaleX="3.0" scaleY="3.0">
+                           <image>
+                              <Image url="@../../../Img/download__1_-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                     </children></AnchorPane>
+                  <Button fx:id="bexit" layoutX="407.0" layoutY="16.0" mnemonicParsing="false" onAction="#exit_pp" prefHeight="87.0" prefWidth="91.0" style="-fx-background-color: transparent;" />
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

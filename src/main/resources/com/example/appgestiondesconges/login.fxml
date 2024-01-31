@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="496.0" prefWidth="722.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.appgestiondesconges.loginController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: black;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="35.0" layoutY="165.0" pickOnBounds="true" preserveRatio="true" scaleX="1.5" scaleY="2.0">
+               <image>
+                  <Image url="@../../../Img/illustrations_for_features__pages_1-removebg-preview.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="loginS">
+         <children>
+            <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="37.0" layoutY="254.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Img/lock-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="61.0" fitWidth="72.0" layoutX="43.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Img/profile-user-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ba" fitHeight="135.0" fitWidth="149.0" layoutX="372.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Img/b8d57b67540ff1b9c1d795c0957b53ef-removebg.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="126.0" layoutY="229.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="3.0" prefWidth="240.0" style="-fx-background-color: black;" />
+            <Label layoutX="126.0" layoutY="313.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="3.0" prefWidth="240.0" style="-fx-background-color: black;" />
+            <ImageView fx:id="b2img" fitHeight="93.0" fitWidth="72.0" layoutX="411.0" layoutY="337.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Img/enter-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="text1" layoutX="43.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please enter your information">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Text>
+            <Label layoutX="28.0" layoutY="122.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="6.0" prefWidth="467.0" style="-fx-background-color: black;" />
+            <Button fx:id="b4" layoutX="43.0" layoutY="447.0" mnemonicParsing="false" onAction="#ForNullP" prefHeight="25.0" prefWidth="255.0" style="-fx-background-color: #989BA6;" text="You don't have a password? Get one.         " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="b3" layoutX="43.0" layoutY="411.0" mnemonicParsing="false" onAction="#ForNullP" style="-fx-background-color: #989BA6;" text="Did you forget your password? Click here. " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <TextField fx:id="un" layoutX="132.0" layoutY="204.0" prefHeight="25.0" prefWidth="228.0" promptText="Username" style="-fx-background-color: transparent;" />
+            <PasswordField fx:id="pw" layoutX="132.0" layoutY="290.0" prefHeight="25.0" prefWidth="228.0" promptText="Password" style="-fx-background-color: transparent;" />
+            <Button fx:id="b2" layoutX="412.0" layoutY="335.0" mnemonicParsing="false" onAction="#LOGIN" prefHeight="72.0" prefWidth="81.0" style="-fx-background-color: transparent;" />
+            <Button fx:id="bexit" layoutX="402.0" layoutY="18.0" mnemonicParsing="false" onAction="#exit_pp" prefHeight="87.0" prefWidth="91.0" style="-fx-background-color: transparent;" />
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>

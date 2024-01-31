@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.appgestiondesconges.loginController">
+   <children>
+      <ImageView fitHeight="103.0" fitWidth="148.0" layoutX="78.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true" scaleX="2.0" scaleY="2.0">
+         <image>
+            <Image url="@../../../Img/download__6_-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="upload" layoutX="40.0" layoutY="68.0" mnemonicParsing="false" onAction="#uploadf" prefHeight="25.0" prefWidth="73.0" style="-fx-background-color: black;" text="Uplod file" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="save1" layoutX="40.0" layoutY="113.0" mnemonicParsing="false" onAction="#savefile" prefHeight="25.0" prefWidth="73.0" style="-fx-background-color: black;" text="Save file" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Text fx:id="uploadt" layoutX="150.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="112.0" />
+      <AnchorPane fx:id="filew" layoutX="156.0" layoutY="87.0" prefHeight="103.0" prefWidth="136.0" />
+   </children>
+</AnchorPane>
